@@ -12,6 +12,13 @@ public class Linkedlists {
         L1.add("Banadesh Bali");
         L1.add("Btech");
         L1.add("ECE");
+        L1.add("ABCD");
+        L1.add("XYZ");
+
+        System.out.println(L1);
+        L1.removeFirst();
+        L1.remove(3);
+        L1.removeLast();
         System.out.println(L1);
     }
 }
