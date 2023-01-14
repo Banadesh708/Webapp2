@@ -17,7 +17,7 @@ public class Linkedlists {
 
         System.out.println(L1);
         L1.removeFirst();
-        L1.remove(3);
+        L1.remove(3); //removes 3rd element
         L1.removeLast();
         System.out.println(L1);
     }
